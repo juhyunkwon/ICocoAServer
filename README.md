@@ -8,6 +8,7 @@ a. native-server [ tcp / udp ]
 - hiredis [ session verification ]
 - jsoncpp [ web-front request ]
 - log4c [ logger handler ]
+- libcurl [ http/https plugins ]
 
 b. client interface
 - SuperSocket c# ( tcp )
