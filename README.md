@@ -3,7 +3,7 @@
 ####################### 모바일 서버 아키텍처 ############################
 
 a. native-server [ tcp / udp ]
-- iocp &  [ socket handler ]
+- winsock2, iocp  [ socket handler ]
 - FlatBuffers [ serialization ]
 - hiredis [ session verification ]
 - jsoncpp [ web-front request ]
