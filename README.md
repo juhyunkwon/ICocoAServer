@@ -15,7 +15,10 @@ b. client interface
 - FlatBuffers [ serialization ]
 
 c. web-front
-- php7 (PSR4), php-fpm, nginx
+- php7 ( slimFramework 3.x ), php-fpm, nginx
+	+ packet manager ( session, encrypt )
+	+ url validation ( packet )
+	+ update game share data
 - log4php [ logger handler ]
 
 d. rdbms & cache
